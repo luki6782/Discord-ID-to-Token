@@ -20,7 +20,7 @@ banner = (Fore.MAGENTA + """
   ░     ░                    ░ ░                  ░ ░  ░  ░      ░  ░         ░
 """ + Fore.LIGHTCYAN_EX)
 print(banner)
-userid = input(" [INPUT] USER ID : ")
+userid = input(" [INPUT] USER ID :927645011833651260 ")
 encodedBytes = base64.b64encode(userid.encode("utf-8"))
 encodedStr = str(encodedBytes, "utf-8")
 print(f'\n [LOGS] TOKEN FIRST PART : {encodedStr}')
